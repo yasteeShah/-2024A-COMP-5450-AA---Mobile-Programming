@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#E0F7FA">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task Manager"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:textColor="#00796B" />
+
+    <EditText
+        android:id="@+id/taskInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your task"
+        android:padding="8dp"
+        android:background="@drawable/edit_text_bg"
+        android:layout_marginBottom="16dp" />
+
+    <Spinner
+        android:id="@+id/prioritySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/priority_array"
+        android:layout_marginBottom="16dp" />
+
+    <CheckBox
+        android:id="@+id/importantCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Important"
+        android:layout_marginBottom="16dp" />
+
+    <RadioGroup
+        android:id="@+id/statusRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <RadioButton
+            android:id="@+id/notStartedRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not Started" />
+
+        <RadioButton
+            android:id="@+id/inProgressRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="In Progress"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp" />
+
+        <RadioButton
+            android:id="@+id/completedRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Completed"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/addTaskButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Task"
+        android:background="@color/button_background"
+        android:textColor="@android:color/white"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/viewTasksButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Tasks"
+        android:background="@color/button_background"
+        android:textColor="@android:color/white"
+        android:padding="12dp"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
