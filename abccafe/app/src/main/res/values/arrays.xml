@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="coffee_types">
+        <item>Espresso</item>
+        <item>Cappuccino</item>
+        <item>Latte</item>
+    </string-array>
+</resources>

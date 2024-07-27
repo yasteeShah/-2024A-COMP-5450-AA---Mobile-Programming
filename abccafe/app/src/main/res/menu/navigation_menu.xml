@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_order"
+        android:title="Order Coffee"
+        android:icon="@drawable/ic_order" />
+    <item
+        android:id="@+id/navigation_menu"
+        android:title="View Menu"
+        android:icon="@drawable/ic_menu" />
+
+    <Button
+        android:id="@+id/btn_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Place Order" />
+
+</menu>
