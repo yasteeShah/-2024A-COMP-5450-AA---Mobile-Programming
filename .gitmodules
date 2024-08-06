@@ -1,0 +1,3 @@
+[submodule "ProfessorMeetingPlanner"]
+	path = ProfessorMeetingPlanner
+	url = git@github.com:RoshanGurungSr/ProfessorMeetingPlanner.git
