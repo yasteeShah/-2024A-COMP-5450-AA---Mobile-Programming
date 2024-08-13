@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">RecipeApp</string>
+    <string name="pasta_recipe_name">Pasta Recipe</string>
+    <string name="recipe_display">%1$s\n\n%2$s</string>
+
+
+    <string name="pasta_recipe_details">Ingredients: \n Pasta, Tomato Sauce, Garlic, Olive Oil, Salt, Pepper. \nSteps: \n 1. Cook pasta. \n 2. Prepare sauce. \n 3. Mix together and serve.</string>
+    <string name="pizza_recipe_details">Ingredients: \n Dough, Tomato Sauce, Cheese, Pepperoni, Vegetables. \nSteps: \n 1. Prepare dough. \n 2. Add sauce and toppings. \n 3. Bake in oven.</string>
+    <string name="salad_recipe_details">Ingredients: \n Lettuce, Tomatoes, Cucumbers, Olives, Feta Cheese, Olive Oil. \nSteps: \n 1. Chop vegetables. \n 2. Mix in a bowl. \n 3. Add dressing and serve.</string>
+    <string name="menu">Menu</string>
+    <string name="this_recipe_served_2_adults_a_toddler_and_a_baby_it_becomes_a_very_thick_sauce_when_added_to_the_pasta_if_using_with_both_cheeses">This recipe served 2 adults, a toddler and a baby. It becomes a very thick sauce when added to the pasta if using with both cheeses...</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="andrea">Andrea</string>
+    <string name="recipe_image" />
+    <string name="profile_picture_desc" />
+</resources>
+
+
